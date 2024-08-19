@@ -6,9 +6,19 @@
     box-sizing: border-box;
 }
 
-.menu {
-    display: flex;
-    list-style: none;
-    margin-left: auto;
+.ul {
+    text-align: center;
+    font-size: 25px;
+}
+
+.li {
+    color: black;
+}
+
+.button {
+    padding: 4px 2px;
+    font-size: 20px;
+    background-color: black;
     color: white;
+    
 }
