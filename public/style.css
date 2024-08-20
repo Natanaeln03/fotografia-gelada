@@ -6,13 +6,23 @@
     box-sizing: border-box;
 }
 
+.div {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    text-align: right;
+}
+
 .ul {
     text-align: center;
     font-size: 25px;
+    border-bottom: 1px solid black;
+    padding: 5px;
 }
+
 
 .li {
     color: black;
+    text-decoration: none;
 }
 
 .button {
@@ -20,5 +30,30 @@
     font-size: 20px;
     background-color: black;
     color: white;
+    padding: 3px 30px;
+    border-radius: 10px;
+    
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.main {
+    padding: 10px;
+}
+
+.img1 {
+    
+}
+
+.Imagens1 {
+    width: 600px;
+    
+}
+
+.Imagens2 {
+    width: 600px;
     
 }
