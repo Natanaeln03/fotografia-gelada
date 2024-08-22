@@ -20,15 +20,15 @@
 }
 
 
-.li {
-    color: black;
+.nav-item {
+    color: #161616;
     text-decoration: none;
 }
 
 .button {
     font-size: 20px;
-    background-color: black;
-    color: white;
+    background-color: #161616;
+    color: #ffffff;
     padding: 3px 30px;
     border-radius: 10px;
     
@@ -42,19 +42,29 @@
     padding: 10px;
 }
 
-.img2 {
-    text-align: right;
-    
+.img1 {
+    display: flex;
+    gap: 10px;
 }
 
-
 .Imagens1 {
-    width: 50%;
-    text-align: right;
+    width: 100%;
+    height: 300px;
 }
 
 .Imagens2 {
-    width: 50%;
-    text-align: right;
-    
+    width: 35%;
+    height: auto;
+}
+
+.img2 {
+    grid-column-start: auto;
+}
+
+.Imagens3 {
+    width: 20%;
+}
+
+.Imagens4 {
+    width: 23%;
 }
