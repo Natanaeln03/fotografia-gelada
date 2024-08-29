@@ -14,7 +14,7 @@
     font-size: 20px;
     background-color: #161616;
     color: #ffffff;
-    padding: 3px 30px;
+    padding: 3px 50px;
     border-radius: 10px;
 }
 
@@ -35,34 +35,35 @@
 }
 
 .photo1 {
-
+    
 }
 
 .photo-image1 {
     width: 60%;
-    height: 350px;
+    height: auto;
     padding: 5px;
 }
 
 .photo-image2 {
-    max-width: 40%;
+    width: 40%;
+    height: auto;
     padding: 5px;
     float: right;
 }
 
 .photo2 {
-    
+    display: flex;
 }
 
 .photo-image3 {
-    width: 30%;
-    height: 200px;
+    width: 50%;
+    height: auto;
     padding: 5px;
 }
 
 .photo-image4 {
-    width: 30%;
-    height: 200px;
+    width: 50%;
+    height: auto;
     float: right;
     padding: 5px;
 }
@@ -73,6 +74,7 @@
 
 .photo-image5 {
     width: 30%;
+    height: 100%;
     padding: 5px;
 }
 
